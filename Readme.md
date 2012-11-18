@@ -5,7 +5,7 @@
 
 ## Example
 
-![animated](http://f.cl.ly/items/3z3e433T2D3r2m3H0A36/typewriter.gif)
+![animated](http://f.cl.ly/items/2z1A0V473f3G3n3O0e2P/typewriter.gif)
 
 ```js
 typewriter('#typewriter', 'Hello world!').start();
