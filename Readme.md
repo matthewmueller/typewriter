@@ -22,12 +22,6 @@ typewriter('#typewriter', 'Hello world!').start();
 
 ## API
 
-  - [Typewriter()](#typewriter)
-  - [Typewriter.start()](#typewriterstart)
-  - [Typewriter.stop()](#typewriterstop)
-  - [Typewriter.restart()](#typewriterrestart)
-  - [Typewriter.clear()](#typewriterclear)
-
 ### Typewriter()
 
   Initialize `Typewriter`
