@@ -9,6 +9,8 @@
 typewriter('#typewriter', 'Hello world!').start();
 ```
 
+[animated](http://f.cl.ly/items/3z3e433T2D3r2m3H0A36/typewriter.gif)
+
 ## Installation
 
     $ component install matthewmueller/typewriter
