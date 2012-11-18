@@ -1,0 +1,16 @@
+{
+  "name": "typewriter",
+  "repo": "matthewmueller/typewriter",
+  "description": "animated typing",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/jquery" : "*",
+    "component/emitter" : "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
