@@ -5,7 +5,9 @@
 
 ## Example
 
-  typewriter('#typewriter', 'Hello world!').start();
+```js
+typewriter('#typewriter', 'Hello world!').start();
+```
 
 ## Installation
 
