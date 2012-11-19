@@ -12,6 +12,14 @@ module.exports = Typewriter;
 
 /**
  * Initialize `Typewriter`
+ *
+ *   typewriter('#header', 'Hello world!', 200);
+ *
+ * @param {Mixed} el
+ * @param {String} str
+ * @param {Number} delay
+ * @return {Typewriter}
+ * @api public
  */
 
 function Typewriter(el, str, delay) {

@@ -24,9 +24,13 @@ typewriter('#typewriter', 'Hello world!').start();
 
 ## API
 
-### typewriter()
+### typewriter(el, str, delay)
 
-  Initialize `typewriter`
+  Initialize `Typewriter`
+
+```js
+typewriter('#header', 'Hello world!', 200);
+```
 
 ### #start()
 
