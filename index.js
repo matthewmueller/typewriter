@@ -110,7 +110,7 @@ Typewriter.prototype.restart = function() {
 
 Typewriter.prototype.clear = function() {
   this.el.html('');
-  return;
+  return this;
 };
 
 
