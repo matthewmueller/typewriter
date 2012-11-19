@@ -24,11 +24,11 @@ typewriter('#typewriter', 'Hello world!').start();
 
 ## API
 
-### Typewriter()
+### typewriter()
 
-  Initialize `Typewriter`
+  Initialize `typewriter`
 
-### Typewriter.start()
+### #start()
 
   Start the typewriter
 
@@ -36,7 +36,7 @@ typewriter('#typewriter', 'Hello world!').start();
 typewriter.start()
 ```
 
-### Typewriter.stop()
+### #stop()
 
   Stop the typewriter
 
@@ -44,7 +44,7 @@ typewriter.start()
 typewriter.stop()
 ```
 
-### Typewriter.restart()
+### #restart()
 
   Restart the typewriter. Clears the input
 
@@ -52,7 +52,7 @@ typewriter.stop()
 typewriter.restart()
 ```
 
-### Typewriter.clear()
+### #clear()
 
   Clear the typewriter input
 
