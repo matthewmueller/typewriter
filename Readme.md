@@ -26,7 +26,7 @@ typewriter('#typewriter', 'Hello world!').start();
 
 ### typewriter(el, str, [delay])
 
-  Initialize `Typewriter`
+  Initialize `Typewriter` on a given `el`, with the string `str` and `delay`. If no `delay` is specified, it defaults to 100.
 
 ```js
 typewriter('#header', 'Hello world!', 200);
