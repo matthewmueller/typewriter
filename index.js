@@ -2,8 +2,7 @@
  * Module dependencies
  */
 
-var $ = require('jquery'),
-    Emitter = require('emitter');
+var Emitter = require('emitter');
 
 /**
  * Export `Typewriter`
@@ -17,7 +16,7 @@ module.exports = Typewriter;
 
 function Typewriter(el, str, delay) {
   if(!(this instanceof Typewriter)) return new Typewriter(el, str, delay);
-  this.el = $(el);
+  this.el =  document.querySelector(el);
   this.str = str;
   this.delay = delay || 100;
   this.i = 0;
@@ -46,7 +45,7 @@ Typewriter.prototype.type = function() {
     return;
   }
 
-  this.el.append(ch);
+  this.el.innerHTML += ch;
   this.i++;
   return this;
 };
@@ -109,7 +108,7 @@ Typewriter.prototype.restart = function() {
  */
 
 Typewriter.prototype.clear = function() {
-  this.el.html('');
+  this.el.innerHTML = '';
   return this;
 };
 
